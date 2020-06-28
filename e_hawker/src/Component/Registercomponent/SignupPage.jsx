@@ -4,8 +4,7 @@ function SignupPage() {
       const [username,SetUsername]= useState('username');
       const [email,SetEmail]= useState('abc@gmail.com');
       const [password,setPassword] = useState('123@123');
-;    const handleOnSubmit = (e) =>{
-        console.log("Registered");
+;    const handleOnSubmit = (e) =>{        
         console.log(username);
         SetUsername('');
         console.log(password);
